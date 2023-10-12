@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter&family=Noto+Sans:wght@300;400;500&family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+h1 {
+  font-size: 14px;
+}
+
+body {
+  background-color: #000;
+}
+
+.user_list {
+  margin-top: 2rem;
+}
+.user_list .search_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.user_list .search_wrapper form {
+  color: #4d44b5;
+  display: flex;
+  padding: 2px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.user_list .close {
+  background: transparent;
+  border: none;
+  color: #4d44b5;
+}
+.user_list .form-outline {
+  position: relative;
+}
+.user_list .form-label {
+  background-color: #fff;
+  color: #4d44b5;
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  padding: 0px 2px;
+}
+.user_list input {
+  border: 2px solid #4d44b5;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  background: #ffffff;
+  border-radius: 40px;
+}
+.user_list input:focus {
+  border: 2px solid #4d44b5;
+}
+.user_list .srch_btn {
+  background-color: #4d44b5;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 14px;
+  border: 1px solid #4d44b5;
+  font-weight: 500;
+}
+.user_list .srch_btn:hover {
+  background-color: #fff;
+  color: #4d44b5;
+}
+.user_list tbody tr td {
+  padding: 10px 0px 4px 4px;
+}
+.user_list tbody tr td:last-child {
+  display: flex;
+  align-items: center;
+}
+.user_list tbody tr td:last-child .btn {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.user_list .select_row {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.blog_post_wrapper {
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+.blog_post_wrapper h5 {
+  font-size: 20px;
+}
+.blog_post_wrapper .form-group {
+  margin: 1rem 0rem;
+}
+.blog_post_wrapper .form-group label {
+  font-size: 14px;
+  color: #4d44b5;
+  font-weight: 500;
+}
+.blog_post_wrapper .form-group .form-control {
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog_post_wrapper #imagePreview {
+  margin: 1rem 0rem;
+}/*# sourceMappingURL=style.css.map */

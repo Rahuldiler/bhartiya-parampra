@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter&family=Noto+Sans:wght@300;400;500&family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+body {
+    font-family: "Poppins";
+    background: #f3f4ff;
+}
+
+/* CENTER CONTENT CSS START */
+
+/* MAIN CONTENT MAIN SECTION CSS START */
+
+.main_content .card {
+    margin-top: 2.4rem;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 20px;
+}
+.main_content .card_header {
+    position: relative;
+    background-color: #4d44b5;
+    border-radius: 20px 20px 0 0;
+}
+.main_content .circle_logo {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: -25%;
+    left: 20px;
+    border: 5px solid #fff;
+    background: #c1bbeb;
+    border-radius: 50%;
+}
+.main_content .container-fluid {
+    margin-top: 3rem;
+}
+.main_content .container-fluid li {
+    margin-bottom: 0.6rem;
+}
+.main_content .container-fluid .name_profile li h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #303972;
+}
+.main_content .container-fluid .name_profile li p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #303972;
+}
+.main_content .container-fluid .name_profile li span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a098ae;
+}
+.main_content .container-fluid .phn_profile li p,
+.main_content .container-fluid .email_profile li p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a098ae;
+}
+.main_content .container-fluid .phn_profile li span,
+.main_content .container-fluid .email_profile li span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #303972;
+}
+.main_content .container-fluid .phn_profile li i,
+.main_content .container-fluid .email_profile li i {
+    color: #fff;
+    background: #fb7d5b;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.contacts {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem 1rem 0.8rem;
+}
+.contacts .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts .head div p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+    color: #303972;
+}
+.contacts .head i {
+    background: #4d44b5;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 20px 50px rgba(191, 21, 108, 0.05);
+    border-radius: 50%;
+}
+.contacts .head a {
+    color: #4d44b5;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.contacts .heading_dash input.border1 {
+    border: 1px solid #555;
+    background-color: #ffffff !important;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+    background: transparent url(../images/searchbarimg.svg) no-repeat 10px center;
+}
+.contacts .head div span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a098ae;
+}
+.contacts .head h2 span strong {
+    color: #303972;
+}
+.contacts_list ul li {
+    margin-top: 1.5rem;
+    display: flex;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_list ul li span h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #303972;
+    padding-left: 1rem;
+}
+.contacts_list ul li span .online_img {
+    width: 40px;
+    height: 40px;
+}
+.contacts_list ul li span h6 {
+    font-size: 14px;
+    color: #303972;
+    padding-left: 1rem;
+}
+.contacts_list ul li span h6 p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a098ae;
+}
+.contacts_list ul li span h3 p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a098ae;
+}
+.contacts_list ul li span i {
+    border: 2px solid #a098ae;
+    filter: drop-shadow(0px 20px 50px rgba(191, 21, 108, 0.05));
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.contacts_list ul li span .dot {
+    color: #303972;
+    width: 8px;
+    height: 8px;
+    background-color: #4d44b5;
+    border-radius: 50%;
+}
+.contacts_list .btn {
+    background: rgba(77, 68, 181, 0.1);
+    opacity: 0.5;
+    color: #4d44b5;
+    margin-bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px 20px 50px rgba(191, 21, 108, 0.05);
+    border-radius: 40px;
+}
+/* MAIN RIGHT CONTENT CSS START */
+
+.main_right_content .card {
+    padding: 1rem;
+    height: 350px;
+    margin-top: 2rem;
+    background-color: #4d44b5;
+    background-image: url("../images/profileplancard.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.main_right_content .card_head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.main_right_content .card_head i {
+    color: #fff;
+}
+.main_right_content .card_head span p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+.main_right_content .card_head span h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+.main_right_content .card_body ul {
+    list-style: circle;
+    color: #fff;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.main_right_content .card_body ul li p {
+    margin-bottom: 1rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+.main_right_content .card_footer p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.main_right_content .card_footer .btn {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-top: 2rem;
+    font-size: 14px;
+    color: #303972;
+}
+
+/* MAIN CONTENT TIMELINE CSS START */
+.timeline {
+    list-style: none;
+    counter-reset: counter;
+    padding: 0px;
+    margin-top: 2rem;
+    position: relative;
+    color: white;
+}
+
+.timeline h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #303972;
+}
+
+.timeline > li {
+    counter-increment: counter;
+    position: relative;
+}
+
+.timeline > li::before {
+    content: "";
+    position: absolute;
+
+    padding: 10px;
+    margin-top: 33px;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    background: #c1bbeb;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.timeline > li::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 98px;
+    top: 55px;
+    bottom: -128px;
+    left: 20px;
+    background-color: #c1bbeb;
+}
+
+.timeline > li:last-child::after {
+    width: unset;
+}
+
+.timeline-content {
+    width: 75%;
+    padding-top: 33px;
+    margin-left: 50px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+.timeline-content h6 {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    color: #303972;
+}
+
+.timeline-content p {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    color: #a098ae;
+}
+
+.timeline-content span {
+    color: #fb7d5b;
+}
+
+.timeline-content .span_2 {
+    color: #fcc43e;
+}
+
+.timeline-content .span_3 {
+    color: #4cbc9a;
+}
+
+.timeline-content .span_4 {
+    color: #ff4550;
+}
+.section {
+    background-color: #ffffff;
+}
+/* MAIN CONTENT TIMELINE CSS ENDS  */
+
+/* MEDIA QUERIES START */
+
+@media (max-width: 991px) {
+    .main_right_content .card_head span h2 {
+        font-size: 16px;
+    }
+    .main_right_content .card_head span p {
+        font-size: 14px;
+    }
+    .main_right_content .card_body ul li p {
+        font-size: 14px;
+    }
+    .main_right_content .card_footer p {
+        font-size: 12px;
+    }
+    .contacts_list ul li span img {
+        width: 35px;
+        height: 35px;
+    }
+    .main_content .circle_logo {
+        height: 70px;
+        width: 70px;
+        bottom: -28%;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_content .container-fluid .name_profile li h2 {
+        font-size: 14px;
+    }
+    .main_content .container-fluid .name_profile li p {
+        font-size: 14px;
+    }
+    .main_content .container-fluid .name_profile li span {
+        font-size: 12px;
+    }
+    .main_content .container-fluid .phn_profile li span,
+    .main_content .container-fluid .email_profile li span {
+        font-size: 12px;
+    }
+    .contacts .head div p {
+        font-size: 18px;
+    }
+    .contacts .head div span {
+        font-size: 14px;
+    }
+    .contacts .head i {
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+    }
+    .contacts_list ul li span h3 {
+        font-size: 16px;
+    }
+    .contacts_list ul li span h3 p {
+        font-size: 12px;
+    }
+    .contacts_list ul li span i {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .main_content .circle_logo {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        bottom: -38%;
+        left: 20px;
+        border: 5px solid #fff;
+        background: #c1bbeb;
+        border-radius: 50%;
+    }
+}
